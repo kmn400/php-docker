@@ -3,7 +3,7 @@
         <title>login</title>
     </head>
     <body>
-       <form method="get" action="ok.php">
+       <form method="post" action="ok.php">
             <center>
             <table>
                 <tr>
@@ -12,10 +12,10 @@
                 </tr>
                 <tr>
                     <td>pw : </td> 
-                    <td> <input type="password" name="pw"> </td>
+                    <td> <input type="text" name="pw"> </td>
                 </tr>
                 <tr>
-                    <td>     </td> 
+                    <td>        </td> 
                     <td><input type="submit" value="로그인"></td>
                 </tr>
                 </table>

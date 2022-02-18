@@ -1,6 +1,6 @@
 <?php
-    $id = $_GET['id'];
-    $pw = $_GET['pw'];
+    $id = $_POST['id'];
+    $pw = $_POST['pw'];
 
     if($id == 'SEMIN' && $pw == 'QWERTY')
     {
