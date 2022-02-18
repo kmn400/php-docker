@@ -1,4 +1,5 @@
 <?php
+
 $servername = "host.docker.internal";
 $username = "kmn400";
 $password = "1234";
@@ -14,4 +15,5 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 echo "Connected successfully";
+
 ?>
